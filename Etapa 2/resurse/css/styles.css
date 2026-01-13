@@ -1,0 +1,186 @@
+@import "media-styles.css";
+@import "media-styles500.css";
+/* @import "reset.css"; */
+html{
+  font-size: 16px;
+}
+
+body{
+  background-color: #E5E5E5;
+  font-family: 'Montserrat', sans-serif;
+  --color-background-nav: rgb(0,83,76);
+  --color-background-footer: #ffab41;
+  --color-text-footer: #ffffff;
+}
+
+body{
+  margin-top:0;
+  margin-bottom:0;
+  --body-padding:5rem;
+  --zona-padding:1rem;
+  --padding-intern:4%;
+  min-width:330px;
+}
+
+header, footer, main, nav {
+  padding: var(--zona-padding);
+}
+
+nav{
+  background-color: var(--color-background-nav);
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--color-text-footer);
+  text-align: center;
+}
+
+.descriere {
+  font-family: 'Roboto', cursive;
+  font-size:1.5rem;
+  text-align: left;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+.fa-thumbs-up {
+    animation: pulse 3s infinite ease-in-out;
+    color: #d4af37;
+}
+
+figcaption{
+  font-style: italic;
+  text-align: center;
+}
+
+.meniu-navigare-principal{
+  padding:0px var(--padding-intern) 0px var(--padding-intern);
+  grid-gap:2rem;
+}
+
+header{
+  text-align: center;
+  box-shadow: 
+    0 1px 3px rgba(0,0,0,0.12), 
+    0 1px 2px rgba(0,0,0,0.24);
+}
+
+main{
+  --main-border:1px solid black;
+  /* background:var(--cl-light-t); */
+  
+  border-left:var(--main-border);
+  border-right:var(--main-border);
+  padding-bottom: 2rem;
+}
+
+h1{
+  font-size: 3rem;/* de 3 ori mai mare decat dimensiunea de font a html-ului*/
+  text-shadow:0px 0px 1px black,0px 0px 2px black, 0px 0px 4px white,0px 0px 4px white,0px 0px 4px white;
+}
+
+/*h1>span{
+	font-family: 'Dancing Script', cursive;
+}
+*/
+#grid-pagina{
+  /* display:grid; */
+
+  padding:0px var(--padding-intern) 0px var(--padding-intern);
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-gap:2rem;
+}
+
+#DespreNoi{ 
+  grid-area: DespreNoi;
+}
+
+#Noutati{
+  grid-area: Noutati;
+}
+
+#CategoriiDeProduse{
+  grid-area: CategoriiDeProduse;
+}
+
+#Evenimente{
+  grid-area: Evenimente;
+}
+
+#Contact{ 
+  grid-area: Contact;
+}
+
+#Produse{
+  grid-area: Produse;
+}
+
+#Blog{
+  grid-area: Blog;
+}
+
+#Certificari{
+  grid-area: Certificari;
+}
+
+#ContactUs{
+  grid-area: ContactUs;
+}
+
+
+p{
+  text-align:justify;
+}
+
+table.Orar, table.Orar th, table.Orar td {
+  border: 1px solid;
+  text-align:center;
+}
+#faq{
+  padding:0px var(--padding-intern) 0px var(--padding-intern);
+  grid-gap:2rem;
+}
+#tabelOrar{
+  padding:0px var(--padding-intern) 0px var(--padding-intern);
+  grid-gap:2rem;
+}
+
+.container-iframe{
+    display: block;
+    /* margin:auto; */
+    width: 560px;
+    height: 415px;
+}
+
+ .taburi-iframe a{
+    width: 100%;
+} 
+
+footer{
+  background-color: var(--color-background-footer);
+  color: var(--color-text-footer);
+  padding-left:var(--padding-intern);
+  padding-right:var(--padding-intern);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+footer a{
+  color: var(--color-text-footer);
+  /* text-decoration: none; */
+}
+footer .copyRight{
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+}

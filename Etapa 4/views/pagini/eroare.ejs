@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html  lang="ro">
+<head>
+    <%- include ("../fragmente/head.ejs") %>
+    <meta name="keywords" content="informatii, miere, stupi, albine, sanatate, naturale, stupina, sistemul imunitar.">
+    <meta name="description" content="Magazinul de produse apicole pune la dispozitie miere si produse pentru cresterea albinelor cu optiunea de achizitie online si livrare prin curier.">
+    <title>Magazin Produse Apicole</title>
+</head>
+    <body>
+        
+    <%- include("../fragmente/header.ejs");  %> 
+
+    <main>
+        <div id="err-coloane">
+			<div id="err-imag">
+				<img src="<%- locals.imagine %>" />
+			</div>
+			<section>
+				<h2><%- locals.titlu %></h2>
+				<p><%- locals.text %></p>
+			</section>
+		</div>
+    </main>
+    
+    <%- include("../fragmente/footer.ejs");  %> 
+
+
+    </body>
+</html>

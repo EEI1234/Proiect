@@ -1,0 +1,26 @@
+{
+  "name": "etapa-4",
+  "version": "1.0.0",
+  "description": "Site despre un Magazin Produse Apicole",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "informatii",
+    "miere",
+    "stupi",
+    "albine",
+    "sanatate",
+    "naturale",
+    "stupina",
+    "sistemul",
+    "imunitar"
+  ],
+  "author": "Eugen Enache",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1"
+  }
+}

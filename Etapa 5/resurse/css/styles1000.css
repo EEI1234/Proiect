@@ -1,0 +1,8 @@
+html{
+    font-size:14px;
+}
+
+body{
+    --body-padding:1.5rem;
+    margin:0;
+}
